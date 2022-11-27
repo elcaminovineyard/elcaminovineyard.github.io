@@ -9,10 +9,12 @@ module.exports = {
             teal: colors.teal,
         },
     },
-    theme: {
-        extend: {},
-    },
     plugins: [
         require('@tailwindcss/forms'),
-    ]
+    ],
+    theme: {
+        container: {
+            center: true,
+        }
+    }
 }
