@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors');
-const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
     content: ["./*.{html,js}"],
@@ -17,8 +16,10 @@ module.exports = {
         container: {
             center: true,
         },
-        fontFamily: {
-            'mono': ['Roboto Mono', ...defaultTheme.fontFamily.mono],
+        extend: {
+            fontFamily: {
+                'mono': ['roboto-mono'],
+            },
         },
     }
 }
