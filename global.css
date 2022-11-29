@@ -766,6 +766,10 @@ select {
   grid-column: span 4 / span 4;
 }
 
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -964,6 +968,10 @@ select {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .py-32 {
@@ -1206,6 +1214,10 @@ select {
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
+
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1225,6 +1237,10 @@ select {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:p-10 {
+    padding: 2.5rem;
+  }
+
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1234,5 +1250,9 @@ select {
 @media (min-width: 1280px) {
   .xl\:p-12 {
     padding: 3rem;
+  }
+
+  .xl\:p-10 {
+    padding: 2.5rem;
   }
 }
