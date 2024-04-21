@@ -5,7 +5,7 @@ module.exports = {
     content: ["./*.{html,js}"],
     extend: {
         colors: {
-            'warm-gray': colors.warmGray,
+            stone: colors.stone,
             teal: colors.teal,
         },
     },
@@ -18,7 +18,7 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                'mono': ['roboto-mono'],
+                'sans': ['raleway'],
             },
         },
     }
